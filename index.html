@@ -3,23 +3,37 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
         <title>QR Code</title>
     </head>
-    <body>
+    <body class="index">
         <div class="container">
             <img
                 src="./assets/logo-qr-generator.svg"
                 alt="Logo"
                 class="logo-img"
             />
-            <div class="input-link">
-                <input type="text" name="url" id="url" class="url-input" />
-                <a href="./qr-code.html"
-                    ><button onclick="" type="button" class="url-submit-button">
-                        QR Code
-                    </button></a
+            <form class="input-link">
+                <input
+                    type="text"
+                    name="url"
+                    id="url"
+                    class="url-input"
+                    placeholder="Enter an url"
+                    required
+                />
+                <button type="submit" class="url-submit-button">
+                    QR Code
+                </button>
                 >
-            </div>
+            </form>
         </div>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+            integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="./script.js"></script>
     </body>
 </html>

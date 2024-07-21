@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.index {
+    background-color: #111729;
+    background-image: url("/assets/bg-illustration.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-link {
+    display: inline-flex;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #111729;
+    margin: 10px auto;
+    padding: 5px;
+    border: 3px solid #3662e3;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.url-input {
+    padding: 10px;
+    background: transparent;
+    color: #364153;
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 100%;
+}
+
+.url-submit-button {
+    background-color: #3662e3;
+    color: #f2f5f9;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+/* qr-code page */
+.qr-code {
+    display: flex;
+    flex-direction: column;
+    background-color: #111729;
+    background-image: url("/assets/bg-illustration.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0px;
+    height: 100vh;
+}
+
+.nav-logo {
+    margin: 20px 50px;
+    padding: 20px 50px;
+}
+
+.qr-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-circle{
+    background-color: #4e80ee33;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-qr{
+    background-color: #f2f5f9;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.qr-image{
+    background-color: white;
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.qr-button-group {
+    display: inline-flex;
+    gap: 20px;
+}
+
+.download-qr {
+    background-color: #3662e3;
+    color: #f2f5f9;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+.share-qr {
+    background-color: #3662e3;
+    color: #f2f5f9;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+.qr-button-icon{
+    height: 20px;
+}
